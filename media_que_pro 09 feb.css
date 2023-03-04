@@ -1,0 +1,71 @@
+body{
+    background-color: #7fffd4;
+    
+}
+
+h1{
+
+    text-align: center;
+}
+
+
+@media (min-width:1440px){
+
+
+    body{
+    background-color: green;
+    }
+
+    div::after{
+        
+        content: "screen size 1440 px";
+    }
+
+
+}
+
+@media( 1440px>=width >=1024px){
+
+
+    body{
+
+        background-color: #a52a2a;
+    }
+
+
+    div::after{
+        content: "screen size 1024px To 1440px ";
+    }
+}
+
+
+
+@media(1024px>=width>=768px){
+
+    body{
+    background-color: #ee00ff;
+    }
+
+
+    div::after{
+        content: "screen size 768px TO 1024px";
+    }
+}
+
+
+
+@media(768px>=width>=425px){
+
+
+    body{
+        background-color: #ff0000;
+        }
+    
+    
+        div::after{
+            content: "screen size 425px TO 768px";
+        }
+
+
+
+}
